@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    color: #000;
+    line-height: 1.6;
+}
+
+h1 {
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    color: #555;
+    margin-top: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 24px 0;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background: #eee;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 24px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
+
+/* Error */
+.error-box {
+    border: 1px solid #000;
+    background: #f5f5f5;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.error-box ul {
+    margin: 4px 0 0 20px;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #555;
+    font-size: 13px;
+    padding: 8px 0;
+}
